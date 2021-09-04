@@ -1,0 +1,10 @@
+.blue {
+  color: blue;
+  font-size: 40px;
+}
+.warning {
+  color: red;
+}
+.error {
+  color: green;
+}

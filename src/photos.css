@@ -1,0 +1,32 @@
+* {
+  border: 0;
+  padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+}
+.photo-div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.photo-div img {
+  width: 24%;
+  height: 250px;
+  margin: 10px;
+  transition: all 1s;
+  filter: grayscale(100%);
+}
+.photo-div img:hover {
+  filter: grayscale(0%);
+}
+@media screen and (max-width: 768px) {
+  .photo-div img {
+    height: 120px;
+    margin: 2px;
+  }
+  .photo-div img:hover {
+    width: 70%;
+    height: 70%;
+    filter: grayscale(0%);
+  }
+}

@@ -1,0 +1,163 @@
+* {
+  border: 0;
+  padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+}
+.data-form {
+  width: 50%;
+  margin: 20px auto;
+  background: rgb(200, 219, 138);
+  border: 2px solid rgb(64, 64, 218);
+  border-radius: 20px;
+  text-align: center;
+  font-size: 22px;
+  font-weight: 700;
+}
+.data-form h1 {
+  font-size: 35px;
+  margin: 10px 0px;
+}
+.data-form input[type="text"] {
+  width: 60%;
+  outline: 0;
+  border: 1px solid rgb(32, 184, 32);
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px 5px;
+  transition: all 1s;
+  font-size: 24px;
+}
+.data-form textarea {
+  width: 70%;
+  height: 50px;
+  text-overflow: scroll;
+  display: block;
+  margin: 10px auto;
+  font-size: 20px;
+  outline: 0;
+}
+.data-form input[type="text"]:focus {
+  width: 78%;
+  transform: scale(1);
+}
+.data-form input[type="file"] {
+  width: 50%;
+  display: block;
+  margin: 10px auto;
+  border: 1px solid red;
+  border-radius: 10px;
+  padding: 10px;
+  font-size: 15px;
+  outline: 0;
+}
+hr {
+  border: 1px dashed rgb(184, 137, 137);
+  width: 70%;
+  margin: 5px auto;
+}
+.data-form .form-submit {
+  width: 30%;
+  padding: 10px;
+  font-size: 20px;
+  border: 2px solid rgb(9, 129, 9);
+  background: linear-gradient(rgb(141, 197, 141), rgb(5, 255, 5));
+  cursor: pointer;
+  border-radius: 10px;
+  transition: all 1s;
+  outline: 0;
+}
+.data-form .form-submit:hover {
+  background: linear-gradient(rgb(5, 255, 5), rgb(141, 197, 141));
+  width: 40%;
+}
+
+::placeholder {
+  color: rgba(0, 0, 0, 0.411);
+}
+.search-bar {
+  width: 50%;
+  margin: 10px auto;
+  outline: 0;
+  border: 1px solid rgb(32, 184, 32);
+  border-radius: 10px;
+  padding: 10px;
+  transition: all 1s;
+  font-size: 24px;
+  box-shadow: 2px -2px 0 2px gray;
+}
+.search-button {
+  width: 20%;
+  padding: 10px;
+  font-size: 20px;
+  border: 2px solid rgb(9, 129, 9);
+  background: linear-gradient(rgb(141, 197, 141), rgb(5, 255, 5));
+  cursor: pointer;
+  border-radius: 10px;
+  transition: all 1s;
+  outline: 0;
+}
+.search-div {
+  width: 100%;
+  text-align: center;
+}
+@media screen and (max-width: 420px) {
+  .data-form {
+    width: 90%;
+    margin: 20px auto;
+    background: rgb(200, 219, 138);
+    border: 2px solid rgb(64, 64, 218);
+    border-radius: 20px;
+    text-align: center;
+    font-size: 13px;
+  }
+  .data-form h1 {
+    font-size: 20px;
+    margin: 10px 0px;
+  }
+  .data-form input[type="text"] {
+    font-size: 20px;
+    width: 70%;
+    outline: 0;
+    border: 1px solid rgb(32, 184, 32);
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px 5px;
+    transition: all 1s;
+  }
+  .data-form input[type="text"]:focus {
+    width: 80%;
+    transform: scale(1);
+  }
+  .data-form input[type="file"] {
+    width: 80%;
+    display: block;
+    margin: 10px auto;
+    border: 1px solid red;
+    border-radius: 10px;
+  }
+  hr {
+    border: 1px dashed rgb(184, 137, 137);
+    width: 70%;
+    margin: 5px auto;
+  }
+  .data-form .form-submit {
+    padding: 10px;
+    font-size: 20px;
+    border: 2px solid rgb(9, 129, 9);
+    background: linear-gradient(rgb(141, 197, 141), rgb(5, 255, 5));
+    border-radius: 10px;
+  }
+  .data-form textarea {
+    font-size: 15px;
+  }
+  .search-bar:focus {
+    width: 80%;
+  }
+  .search-button {
+    width: 35%;
+  }
+  .search-bar {
+    font-size: 14px;
+  }
+}
